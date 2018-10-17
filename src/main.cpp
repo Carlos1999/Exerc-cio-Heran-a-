@@ -13,13 +13,5 @@ int main(){
 	c->parar();
 	c->print();
 
-
-
-
-
-
-
-
-
 	return 0;
 }

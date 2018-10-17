@@ -31,5 +31,11 @@ void Carro::parar(){
 }
 
 void Carro::print(){
-	cout<<"Cor:"<< m_cor<<" |Modelo:" << m_modelo<<" |Ano:" <<  m_ano<<" |Placa:" <<  m_placa<<" |Nome do Proprietario:" <<m_proprietario->getIdentificador()<<" |Idade do Proprietario:"<<m_proprietario->getIdade()<<" |Volume do Portamalas:"<< m_volumePortaMalas<<endl;
+	cout<<"Cor: "<< m_cor<<endl;
+	cout<<" |Modelo: " <<m_modelo<<endl;
+	cout<<" |Ano: " <<m_ano<<endl;
+	cout<<" |Placa: " <<m_placa<<endl;
+	cout<<" |Nome do Proprietario: " <<m_proprietario->getIdentificador()<<endl;
+	cout<<" |Idade do Proprietario: "<<m_proprietario->getIdade()<<endl;
+	cout<<" |Volume do Portamalas: "<< m_volumePortaMalas<<endl;
 }
